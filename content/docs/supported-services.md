@@ -97,4 +97,4 @@ ParaSwap implements ChainLink's price feeds to quickly fetch actionable and accu
 
 ### Nexus Mutual
 
-ParaSwap's main contracts are covered on Nexus Mutual - the insurance service. The insure covers technical failure of ParaSwap's contract, up to 1000 ETH.
+ParaSwap's main contracts are covered on Nexus Mutual - the insurance service. Any user can contract an insurance to hedge oneself against a risk of failure of ParaSwap's contract.

@@ -1,5 +1,6 @@
 baseURL = "https://upbeat-franklin-561986.netlify.app"
 title = "Learn 2 Swap - ParaSwap Community Handbook"
+siteDescription = "If you can read this then I should probably edit it"
 enableRobotsTXT = true
 theme = ["hugo-notice","compose"]
 enableGitInfo = true
@@ -10,7 +11,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [[menu.main]]
     name = "Docs"
     weight = 2
-    url = "docs/"
+    url = "/docs/"
 
 [markup]
   [markup.goldmark]
