@@ -17,8 +17,8 @@ Ethereum's DeFi operates in a permissionless manner: there are no checks require
 1. **[🦊 MetaMask](https://metamask.io/)**
 2. **[🔐 Gnosis Safe](https://gnosis-safe.io/)**
 
-### Now, you're ready to swap!
+### You're now ready to DeFi!
 
-With a wallet secured, you have everything you need to interact with ParaSwap and any other decentralised finance service. 
+With a wallet secured, you have everything you need to interact with ParaSwap and any other decentralised finance services. 
 
-<div align ="center">{{< button "/docs/getting-started/" "Why use ParaSwap?" >}}</div>
+<div align ="center">{{< button "/docs/getting-started/ps-edge/" "Why use ParaSwap?" >}}</div>

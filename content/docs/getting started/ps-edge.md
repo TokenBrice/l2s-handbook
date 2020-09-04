@@ -2,34 +2,34 @@
 title: "ParaSwap's Edge"
 weight: 3
 description: >
-  Why using ParaSwap can be more effective than interacting directy with DeFi services  
+  Why using ParaSwap can be more effective than interacting directly with DeFi services  
 ---
 
-This page summarizes the main benefits you can draw from using ParaSwap's over interacting with the decentralised finance services directly, or using another middleware.
+This page summarizes the main benefits you can draw from using ParaSwap's over interacting with the decentralised finance services directly or using another middleware.
 
-### Decentralized Exchanges Aggregation
+### Efficient Decentralized Exchanges Aggregation
 
 {{< notice note >}}
-ParaSwap scours dozens of decentralised exchanges to secure the best rates. Thanks to a refine pathing analysis logic, all options are explored, including splitting your order on several exchanges or looking for alternative swapping routes. 
+ParaSwap scours dozens of decentralised exchanges to secure the best rates. Thanks to a refine pathing analysis logic, all options are explored, including splitting your order into several exchanges or looking for alternative swapping routes. 
 {{< /notice >}}
 
 {{< block "grid-2" >}}
 {{< column >}}
 #### Find the Best Rate
 
-ParaSwap connect to most major decentralised exchanges, such as Uniswap, Kyber, Curve or the 0x network. 
+ParaSwap connects to most major decentralised exchanges, such as Uniswap, Kyber, Curve or the 0x network. 
 
-When you input a trading pair on ParaSwap, such as ETH to DAI for instance, ParaSwap compare the prices of each exchange (accounting for your transaction's volume).
+When you input a trading pair on ParaSwap, such as ETH to DAI, for instance, ParaSwap compares the prices of each exchange (accounting for your transaction's volume).
 
-> ParaSwap can execute a given order on both Uniswap and Kyber for instance, at the same time and in one transaction.
 {{< /column >}}
 {{< column >}}
 
 ![compare-rates-with-Paraswap](/images/rate-compare.png)
-_ParaSwap examines at the rate for the given pair on all supported exchanges and displays the effective rate (accounting for slippage) for each._
 
 {{< /column >}}
 {{< /block >}}
+
+_ParaSwap examines at the rate for the given pair on all supported exchanges and displays the effective rate (accounting for slippage) for each._
 
 {{< block "grid-2" >}}
 {{< column >}}
@@ -39,10 +39,10 @@ _ParaSwap examines at the rate for the given pair on all supported exchanges and
 {{< /column >}}
 
 {{< column >}}
-
+---
 #### Optimise the Order's Execution
 
-Whatever gets you the best rate, ParaSwap does - including splitting your order accross several decentralized exchanges.
+ParaSwap does whatever it takes to find the best rate - including splitting your order across several decentralized exchanges.
 
 Splitting orders is particularly effective for large transactions, such as the one presented here: a swap of 500 ETH to DAI, routed on three supports: 
 1. 40% ParaSwapPool, 
@@ -52,44 +52,78 @@ Splitting orders is particularly effective for large transactions, such as the o
 {{< /column >}}
 {{< /block >}}
 
+{{< block "grid-2" >}}
+{{< column >}}
+
 ---
+#### MultiPath: No Stones Left Unturned
 
-### ParaSwap's Pool
+**ParaSwap routing algorithm explore every relevant route**, including the ones involving extra hops. For instance, if you're looking to buy ETH from USDT, a direct USDT -> ETH swap might not be the way. Getting the best rate might involve going USDT -> USDC -> ETH for instance.
 
-{{< notice note >}}
-On top of all major DEXes, ParaSwap has its own private Market Maker pool. ParaSwap's pool provides further opportunities to optimisatise the transactions, sometimes enabling our users to **beat the market rate**.
-{{< /notice >}}
+No need to compute all this complexity (across all DEXes) by yourself - ParaSwap does it for you!
 
-Something
+{{< /column >}}
+{{< column >}}
+
+![Paraswap-multipath](/images/paraswap-multipath.png)
+_A large USDT -> ETH swap routed through MultiPath to beat the direct-pair price._
+
+{{< /column >}}
+{{< /block >}}
 
 ---
 
 ### Gas Optimisations
 
 {{< notice note >}}
-ParaSwap implements several solutions to reduce gas usage accross the platform, such as the GST2 gas token.
+ParaSwap implements several solutions to reduce gas usage across the platform, such harnessing the GST2 gas token.
 {{< /notice >}}
 
-Something
+{{< block "grid-2" >}}
+{{< column >}}
+
+![etherscan-gas-tracker](/images/etherscan-gas-tracker.png)
+_Check the current status of the gas market with **[⛽ EtherScan Gas Tracker](https://etherscan.io/gastracker)**._
+
+{{< /column >}}
+
+{{< column >}}
+**Every trade made on ParaSwap is settled on the Ethereum network and incur a gas cost paid to the miners** to verify and broadcast the transaction. The gas price (chosen by the person submitting the transaction) influences the time required for the transaction to be validated.
+
+**If the gas price is too low, a transaction might never be incorporated into a block.**
+
+The Gas Token (GST2) enables the tokenisation of gas when prices are low. The GST2 previously minted are then harnessed to reduce the effective gas costs when the Ethereum Network is most busy.
+{{< /column >}}
+{{< /block >}}
 
 {{< notice tip >}}
-Please note that the gas costs estimations featured on ParaSwap.io are **a worst case scenario**. Often, the effective price will be lower. While GST2 can be harnessed to optimize your trade, ParaSwap will refund you the gas cost saved.
+The gas costs estimations displayed on ParaSwap.io are **a worst-case scenario**. Often, the effective price will be lower. While GST2 can be harnessed to optimize your trade, ParaSwap will refund you the gas cost saved.
 {{< /notice >}}
+
+---
+
+### ParaSwapPool
+
+{{< notice note >}}
+On top of all major DEXes, ParaSwap has its private Market Maker pool. ParaSwap's pool provides further opportunities to optimise the transactions, sometimes enabling our users to **beat the market rate**.
+{{< /notice >}}
+
+ParaSwap pools the liquidity provided by professional liquidity providers in the ParaSwapPool. This pool is included in any relevant trade, just like another decentralized exchange.
 
 ---
 
 ### Streamlined Allow Transactions
 
 {{< notice note >}}
-**With ParaSwap, one allow rules them all!** Once you've allowed a given token on ParaSwap, you can exchange it on any DEX (through ParaSwap) - no further allow required!
+**With ParaSwap, one `Allow` rules them all!** Once you've allowed a given token on ParaSwap, you can exchange it on any DEX (through ParaSwap) - no further allow required!
 {{< /notice >}}
 
 #### Not familiar with `Allow` transactions? Read this 👇
 
-When interacting with a DeFi service never used on a given wallet before, a specific transaction is required to enable tokens to be spent or moved around: `Allow`. The transaction must be repeated for each tokens spent/traded, and on each new service.
+When interacting with a DeFi service never used on a given wallet before, a specific transaction is required to enable tokens to be spent or moved around: `Allow`. The transaction must be repeated for each token spent/traded, and on each new service.
 
 {{< notice info >}}
-Since ETH is the base asset of the Ethereum network, it does not require an `Allow` transaction to be spent or utilized.
+Since ETH is the base asset of the Ethereum network, it is the only asset that does not require an `Allow` transaction to be spent or utilized.
 {{< /notice >}}
 
 #### With ParaSwap `Allow` once and for all
@@ -98,10 +132,19 @@ With ParaSwap, you still need to perform the `Allow` for any new token you inter
 
 ---
 
-### Nexus Mutual Insurance
+### Understanding Risk & Hedging It
 
 {{< notice note >}}
-2 line explainer
+ParaSwap follows a strict procedure to reduce operational risk. ParaSwap never holds custody of your assets. For further insurance, you can also contract a cover on Nexus Mutual.
 {{< /notice >}}
 
-zomg
+Since ParaSwap is a middleware, your funds are only exposed while a transaction is being processed. **ParaSwap never hold custody of your assets - you stay in full control**.
+
+![ParaSwap-on-Nexus-Mutual](/images/nexus-mutual.png)
+
+_As of Friday, Sep 04, a total of $8M (51.222 NXM) were staked on ParaSwap's contract. **[Source: NexusTracker](https://nexustracker.io/staking)**_
+
+While being a middleware reduce the scope of risk, it doesn't eliminate it. The main operational risk lies in the failure of one of ParaSwap's contracts. We implement several solutions to hedge for this risk:
+1. ParaSwap's contracts are audited. New versions go through a thorough audit process before being released.
+2. Any user can subscribe to insurance covering the risk of a technical failure of ParaSwap's contract using Nexus Mutual.
+3. To minimize the risk exposure, ParaSwap only integrates with services following thorough security practices.
