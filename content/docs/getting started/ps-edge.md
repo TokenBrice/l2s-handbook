@@ -52,6 +52,8 @@ Splitting orders is particularly effective for large transactions, such as the o
 {{< /column >}}
 {{< /block >}}
 
+---
+
 ### ParaSwap's Pool
 
 {{< notice note >}}
@@ -59,6 +61,8 @@ On top of all major DEXes, ParaSwap has its own private Market Maker pool. ParaS
 {{< /notice >}}
 
 Something
+
+---
 
 ### Gas Optimisations
 
@@ -68,13 +72,31 @@ ParaSwap implements several solutions to reduce gas usage accross the platform, 
 
 Something
 
+{{< notice tip >}}
+Please note that the gas costs estimations featured on ParaSwap.io are **a worst case scenario**. Often, the effective price will be lower. While GST2 can be harnessed to optimize your trade, ParaSwap will refund you the gas cost saved.
+{{< /notice >}}
+
+---
+
 ### Streamlined Allow Transactions
 
 {{< notice note >}}
 **With ParaSwap, one allow rules them all!** Once you've allowed a given token on ParaSwap, you can exchange it on any DEX (through ParaSwap) - no further allow required!
 {{< /notice >}}
 
-aaa
+#### Not familiar with `Allow` transactions? Read this 👇
+
+When interacting with a DeFi service never used on a given wallet before, a specific transaction is required to enable tokens to be spent or moved around: `Allow`. The transaction must be repeated for each tokens spent/traded, and on each new service.
+
+{{< notice info >}}
+Since ETH is the base asset of the Ethereum network, it does not require an `Allow` transaction to be spent or utilized.
+{{< /notice >}}
+
+#### With ParaSwap `Allow` once and for all
+
+With ParaSwap, you still need to perform the `Allow` for any new token you interact with. However, once you've allowed the ParaSwap contract, you'll be able to trade your tokens on any DEX - including potentially new DEXes added after your first trade.
+
+---
 
 ### Nexus Mutual Insurance
 
