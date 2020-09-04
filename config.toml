@@ -1,7 +1,7 @@
 baseURL = "https://example.com/"
 title = "Compose Docs"
 enableRobotsTXT = true
-theme = "compose"
+theme = ["hugo-notice","compose"]
 enableGitInfo = true
 
 disableKinds = ["taxonomy", "taxonomyTerm"]
