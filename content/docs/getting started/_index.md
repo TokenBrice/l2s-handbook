@@ -2,16 +2,23 @@
 title: "Getting Started"
 weight: 2
 description: >
-  This page tells you how to get started with the Compose theme, including installation and basic configuration.
+  This page details what you need to get started with ParaSwap.
 ---
 
-## Prerequisites and installation
+ParaSwap aggregates several DeFi services and make them available in one comprehensive interface. If you've never heard of Ethereum and the decentralised finance ecosystem growing on top of it, we recommend you to check this introduction resource:
 
-### Install Hugo 
+- **[EthHub - Decentralized Finance Overview](https://docs.ethhub.io/built-on-ethereum/open-finance/what-is-open-finance/)**
+- **[Consensys - Blockchain for Decentralized Finance (DeFi)](https://consensys.net/blockchain-use-cases/decentralized-finance/)**
 
-You need a [recent **extended** version](https://github.com/gohugoio/hugo/releases) (we recommend version 0.61 or later) of [Hugo](https://gohugo.io/) to do local builds and previews of sites (like this one) that uses this theme.
+### First, you need a wallet
 
-If you install from the release page, make sure to get the `extended` Hugo version, which supports [sass](https://sass-lang.com/documentation/file.SCSS_FOR_SASS_USERS.html); you may need to scroll down the list of releases to see it. 
+Ethereum's DeFi operates in a permissionless manner: there are no checks required to use a given DeFi service. All you need to get aboard is a wallet - used to store and secure your assets. Here are two common and proven options:
 
-For comprehensive Hugo documentation, see [gohugo.io](https://gohugo.io/).
+1. **[🦊 MetaMask](https://metamask.io/)**
+2. **[🔐 Gnosis Safe](https://gnosis-safe.io/)**
 
+### Now, you're ready to swap!
+
+With a wallet secured, you have everything you need to interact with ParaSwap and any other decentralised finance service. 
+
+<div align ="center">{{< button "/docs/getting-started/" "Why use ParaSwap?" >}}</div>

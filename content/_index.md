@@ -1,29 +1,26 @@
 +++
-title = "Compose"
+title = "ParaSwap's Handbook Intro"
 +++
 
 {{< block "grid-2 mt-2" >}}
 {{< column >}}
 
-# Compose your Docs with __Ease__.
+### Welcome to Learn2Swap
 
-Compose is a lean theme for the `Hugo`, inspired by [forestry.io](https://forestry.io). 
+Learn2Swap is the user handbook of ParaSwap - the DeFi middleware.
 
-{{< notice warning >}}
-This is a warning notice. Be warned!
+ParaSwap aggregates many decentralised echanges and other DeFi services in one comprehensive interface to streamline and facilitate users' interactions with Ethereum's decentralised finance.
+
+You'll find here a clear state of ParaSwap's capabilities and some guidance on all the services ParaSwap can interact with.
+
+{{< notice note >}}
+This documentation is intended for end-users and integrators looking to understand what they can do with ParaSwap and how it works.
 {{< /notice >}}
 
-We do a [Pull Request](https://github.com/onweru/compose/pulls) contributions workflow on **GitHub**. Also feel free to raise any issues or feature suggestions.
-
-Note that the theme is built with simplicity in mind. This way, if a suggestion complicates the usability of the theme, it may be declined. New users are always welcome!
-
-{{< button "docs/" "Read the Docs" >}} {{< button "https://github.com/onweru/compose" "Download Theme" >}}
+{{< button "docs/" "Read the Handbook" >}} {{< button "https://paraswapv2.docs.apiary.io/#" "API Documentation" >}}
 
 {{< /column >}}
 {{< column >}}
-![diy](/images/diy.jpeg)
-
-<!-- Photo by [Jasmin Schreiber](https://unsplash.com/@lavievagabonde?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash -->
-
+![diy](/images/paraswap-home.png)
 {{< /column >}}
 {{< /block >}}

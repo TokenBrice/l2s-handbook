@@ -1,5 +1,5 @@
 baseURL = "https://example.com/"
-title = "Compose Docs"
+title = "Learn 2 Swap - ParaSwap Community Handbook"
 enableRobotsTXT = true
 theme = ["hugo-notice","compose"]
 enableGitInfo = true
@@ -30,7 +30,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 # Everything below this are Site Params
 
 [params]
-  author = "Weru"
+  author = "ParaSwap"
   searchPlaceholder = "Search the docs ..."
   repo = "https://github.com/onweru/compose"
 
@@ -39,8 +39,3 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [params.logo]
     lightMode = "compose.svg"
     darkMode = "compose-light.svg"
-
-  [params.source]
-    name = "GitHub"
-    icon = "github.svg"
-    url = "https://github.com/onweru/compose/"
