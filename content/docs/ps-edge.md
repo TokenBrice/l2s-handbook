@@ -40,7 +40,7 @@ _ParaSwap examines at the rate for the given pair on all supported exchanges and
 
 {{< column >}}
 ---
-#### Optimise the Order's Execution
+#### Optimise Orders' Execution
 
 ParaSwap does whatever it takes to find the best rate - including splitting your order across several decentralized exchanges.
 

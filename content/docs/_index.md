@@ -5,6 +5,10 @@ description: >
   This page details what you need to get started with ParaSwap.
 ---
 
+This handbook provides context to better understand ParaSwap's context and how to make the most of it.
+
+It details the requirement to start using ParaSwap (Getting Started section), as well as why it makes sense to interact with DeFi using middleware. Finally, it will provide you with a comprehensive overview of all the services ParaSwap's interact with and their hedge.
+
 ParaSwap aggregates several DeFi services and make them available in one comprehensive interface. If you've never heard of Ethereum and the decentralised finance ecosystem growing on top of it, we recommend you to check this introduction resource:
 
 - **[EthHub - Decentralized Finance Overview](https://docs.ethhub.io/built-on-ethereum/open-finance/what-is-open-finance/)**
