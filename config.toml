@@ -9,9 +9,14 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 #  menu items
 [[menu.main]]
-    name = "Docs"
+    name = "Handbook"
     weight = 2
     url = "/docs/"
+
+[[menu.main]]
+    name = "ParaSwap"
+    weight = 3
+    url = "https://paraswap.io/"
 
 [markup]
   [markup.goldmark]
@@ -38,5 +43,5 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   time_format_blog = "Monday, January 02, 2006"
   time_format_default = "January 2, 2006"
   [params.logo]
-    lightMode = "Paraswap-SVG.svg"
-    darkMode = "paraswap-square.svg"
+    lightMode = "logo/logo_paraswap-handbook-blue.svg"
+    darkMode = "logo/logo_paraswap-handbook.svg"

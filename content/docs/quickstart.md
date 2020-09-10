@@ -42,6 +42,7 @@ In the `Earn` sub-tab, you can commit liquidity to Bancor's Network pairs straig
 To easily follow the price action on your favourite tokens, ParaSwap provides a price alerting feature. To activate it, simply click `🔔 Price Alerts` in the main menu.
 
 ![paraswap-quickstart-price-altert](/images/quickstart/price-alert.png)
+
 _Setting up a price alert for the ETH/DAI pair_
 
 It opens up a prompt to create an alert on the pair you are currently viewing. You can receive the notifications either directly in your browser or the email address of your choice.
