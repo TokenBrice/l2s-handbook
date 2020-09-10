@@ -10,13 +10,12 @@ This page summarizes the main benefits you can draw from using ParaSwap's over i
 ### Efficient Decentralized Exchanges Aggregation
 
 {{< notice note >}}
-ParaSwap scours dozens of decentralised exchanges to secure the best rates. Thanks to a refine pathing analysis logic, all options are explored, including splitting your order into several exchanges or looking for alternative swapping routes. 
+ParaSwap scours dozens of decentralised exchanges to secure the best rates. Thanks to a refined pathing analysis logic, all options are explored, including splitting your order into several exchanges or looking for alternative swapping routes. 
 {{< /notice >}}
 
 {{< block "grid-2" >}}
 {{< column >}}
 #### Find the Best Rate
-
 ParaSwap connects to most major decentralised exchanges, such as Uniswap, Kyber, Curve or the 0x network. 
 
 When you input a trading pair on ParaSwap, such as ETH to DAI, for instance, ParaSwap compares the prices of each exchange (accounting for your transaction's volume).
@@ -31,6 +30,8 @@ When you input a trading pair on ParaSwap, such as ETH to DAI, for instance, Par
 
 _ParaSwap examines at the rate for the given pair on all supported exchanges and displays the effective rate (accounting for slippage) for each._
 
+---
+
 {{< block "grid-2" >}}
 {{< column >}}
 
@@ -39,9 +40,7 @@ _ParaSwap examines at the rate for the given pair on all supported exchanges and
 {{< /column >}}
 
 {{< column >}}
----
 #### Optimise Orders' Execution
-
 ParaSwap does whatever it takes to find the best rate - including splitting your order across several decentralized exchanges.
 
 Splitting orders is particularly effective for large transactions, such as the one presented here: a swap of 500 ETH to DAI, routed on three supports: 
@@ -52,13 +51,15 @@ Splitting orders is particularly effective for large transactions, such as the o
 {{< /column >}}
 {{< /block >}}
 
+---
+
 {{< block "grid-2" >}}
 {{< column >}}
 
----
-#### MultiPath: No Stones Left Unturned
+#### MultiPath (1/2): No Stones Left Unturned
+**ParaSwap routing algorithm explore every relevant route**, including the ones involving extra hops. 
 
-**ParaSwap routing algorithm explore every relevant route**, including the ones involving extra hops. For instance, if you're looking to buy ETH from USDT, a direct USDT -> ETH swap might not be the way. Getting the best rate might involve going USDT -> USDC -> ETH for instance.
+For instance, to buy ETH from USDT, a direct USDT -> ETH swap might not be the way. Getting the best rate might involve going USDT -> USDC -> ETH for instance.
 
 No need to compute all this complexity (across all DEXes) by yourself - ParaSwap does it for you!
 
@@ -70,6 +71,27 @@ _A large USDT -> ETH swap routed through MultiPath to beat the direct-pair price
 
 {{< /column >}}
 {{< /block >}}
+
+---
+
+{{< block "grid-2" >}}
+{{< column >}}
+
+![Paraswap-aSNX-multipath](/images/multipath-aSNX.png)
+_A swap from ETH to aSNX facilitated by ParaSwap_
+
+{{< /column >}}
+
+{{< column >}}
+#### MultiPath (2/2) - Interactions Aggregation
+MultiPath will also help you **interacting with several services with one gas-efficient transaction**. For instance, if you'd like to swap ETH to SNX and then deposit the SNX into Aave for aSNX, ParaSwap can do this for you in one step:
+
+Thanks to MultiPath - ParaSwap will interact with each contract to reduce your effective slippage - so in this case your ETH are swapped to SNX and then deposited into Aave.
+
+{{< /column >}}
+{{< /block >}}
+
+
 
 ---
 

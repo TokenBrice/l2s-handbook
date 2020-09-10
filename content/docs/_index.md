@@ -14,6 +14,8 @@ ParaSwap aggregates several DeFi services and make them available in one compreh
 - **[EthHub - Decentralized Finance Overview](https://docs.ethhub.io/built-on-ethereum/open-finance/what-is-open-finance/)**
 - **[Consensys - Blockchain for Decentralized Finance (DeFi)](https://consensys.net/blockchain-use-cases/decentralized-finance/)**
 
+---
+
 ### First, you need a wallet
 
 Ethereum's DeFi operates in a permissionless manner: there are no checks required to use a given DeFi service. All you need to get aboard is a wallet - used to store and secure your assets. Here are two common and proven options:
@@ -25,4 +27,4 @@ Ethereum's DeFi operates in a permissionless manner: there are no checks require
 
 With a wallet secured, you have everything you need to interact with ParaSwap and any other decentralised finance services. 
 
-<div align ="center">{{< button "/docs/ps-edge/" "Why use ParaSwap?" >}}</div>
+<div align ="center">{{< button "/docs/ps-edge/" "Why Use ParaSwap?" >}} {{< button "/docs/quickstart/" "QuickStart" >}}</div>
