@@ -36,6 +36,8 @@ Using `Swap & Transfer`, you can execute two distinct operations in a single tra
 ### Earn
 In the `Earn` sub-tab, you can commit liquidity to Bancor's Network pairs straight for ParaSwap. 
 
+---
+
 ### Miscellaneous Features
 
 #### Price Alerts
@@ -49,6 +51,8 @@ It opens up a prompt to create an alert on the pair you are currently viewing. Y
 
 #### Dark Mode
 Finally, if you find yourself checking ParaSwap obsessively, consider enabling the `Dark Mode`. You'll find the option by opening up the ☰ Hamburger menu at the top-right of the page.
+
+---
 
 ### Example Use Cases
 

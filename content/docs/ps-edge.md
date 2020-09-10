@@ -127,7 +127,7 @@ The gas costs estimations displayed on ParaSwap.io are **a worst-case scenario**
 ### ParaSwapPool
 
 {{< notice note >}}
-On top of all major DEXes, ParaSwap has its private Market Maker pool. ParaSwap's pool provides further opportunities to optimise the transactions, sometimes enabling our users to **beat the market rate**.
+On top of all major DEXes, ParaSwap has its private Market Maker pool. ParaSwapPool provides further opportunities to optimise the transactions, sometimes enabling our users to **beat the market rate**.
 {{< /notice >}}
 
 ParaSwap pools the liquidity provided by professional liquidity providers in the ParaSwapPool. This pool is included in any relevant trade, just like another decentralized exchange.
