@@ -9,14 +9,14 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 #  menu items
 [[menu.main]]
-    name = "Handbook"
+    name = "ParaSwap's Edge"
     weight = 2
-    url = "/docs/"
+    url = "/docs/ps-edge/"
 
 [[menu.main]]
-    name = "ParaSwap"
+    name = "QuickStart"
     weight = 3
-    url = "https://paraswap.io/"
+    url = "docs/quickstart/"
 
 [markup]
   [markup.goldmark]

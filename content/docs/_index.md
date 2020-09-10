@@ -27,9 +27,7 @@ Ethereum's DeFi operates in a permissionless manner: there are no checks require
 1. **[🦊 MetaMask](https://metamask.io/)**
 2. **[🔐 Gnosis Safe](https://gnosis-safe.io/)**
 
-
-
-
+---
 
 ### You're now ready to DeFi!
 
