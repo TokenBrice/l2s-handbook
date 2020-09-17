@@ -84,9 +84,9 @@ _A swap from ETH to aSNX facilitated by ParaSwap_
 
 {{< column >}}
 #### MultiPath (2/2) - Interactions Aggregation
-MultiPath will also help you **interacting with several services with one gas-efficient transaction**. For instance, if you'd like to swap ETH to SNX and then deposit the SNX into Aave for aSNX, ParaSwap can do this for you in one step:
+MultiPath will also help you **interacting with several services with one gas-efficient transaction**. For instance, if you'd like to swap ETH to SNX and then deposit the SNX into Aave for aSNX, ParaSwap can do this for you in one step.
 
-Thanks to MultiPath - ParaSwap will interact with each contract to reduce your effective slippage - so in this case your ETH are swapped to SNX and then deposited into Aave.
+ParaSwap will interact with each contract - so in this case your ETH are swapped to SNX and then deposited into Aave (aSNX) in one transaction for a better gas efficiency.
 
 {{< /column >}}
 {{< /block >}}
@@ -98,7 +98,7 @@ Thanks to MultiPath - ParaSwap will interact with each contract to reduce your e
 ### Gas Optimisations
 
 {{< notice note >}}
-ParaSwap implements several solutions to reduce gas usage across the platform, such harnessing the GST2 gas token.
+ParaSwap implements several solutions to reduce gas usage across the platform, such implementing the GST2 gas token.
 {{< /notice >}}
 
 {{< block "grid-2" >}}
@@ -110,7 +110,7 @@ _Check the current status of the gas market with **[⛽ EtherScan Gas Tracker](h
 {{< /column >}}
 
 {{< column >}}
-**Every trade made on ParaSwap is settled on the Ethereum network and incur a gas cost paid to the miners** to verify and broadcast the transaction. The gas price (chosen by the person submitting the transaction) influences the time required for the transaction to be validated.
+**Every trade made on ParaSwap is settled on the Ethereum network and incurs a gas cost paid to the miners** to verify and broadcast the transaction. The gas price (chosen by the person submitting the transaction) influences the time required for the transaction to be validated.
 
 **If the gas price is too low, a transaction might never be incorporated into a block.**
 

@@ -9,7 +9,7 @@ This page provides an overview of the revenue streams flowing in and out of Para
 
 ParaSwap can either be used directly, through our website paraswap.io or access through a third party integrating with the service:
 1. On [ParaSwap.io](https://paraswap.io), there is no extra markup.
-2. It's up to the services integrating with ParaSwap to decide if they want to charge a commission on the swaps facilitated. 
+2. It's up to the services integrating with ParaSwap to decide if they want to charge a commission on the swaps facilitated. The ParaSwap API facilitates the collection of a fee, if desired, thanks to the Revenue Sharing contract.
 
 ---
 
@@ -19,6 +19,6 @@ ParaSwap currently operates with no fee: **there is no additional markup taken o
 
 ### Revenue Sharing (Integrators)
 
-ParaSwap can be integrated by third-party services thanks to the API. Third-parties integrating with ParaSwap can control the fee structure of their integration thanks to the revenue sharing smart contract. 
+Third-party services, such as wallets, can easily integrate with ParaSwap thanks to the API. They can control the fee structure of their integration thanks to the revenue sharing smart contract. 
 
 If they chose so, they can charge a commission on the swaps they facilitate. When an integrating service uses this feature, 20% of the revenues collected (by default) are shared back with ParaSwap.

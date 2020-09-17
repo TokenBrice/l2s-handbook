@@ -14,7 +14,8 @@ The **[Developer Documentation](https://paraswapv2.docs.apiary.io/#)** provides 
 ### Community Channels
 
 - **[🐦 Follow ParaSwap on Twitter](https://twitter.com/paraswap)**
-- **[✈ Join the Community Chat on Telegram](https://t.me/paraswap)**
+- **[🎮 Join the Community on Discord](https://discord.gg/wYePFfR)**
+- **[✈ Chat on Telegram](https://t.me/paraswap)**
 
 ---
 
