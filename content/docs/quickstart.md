@@ -56,7 +56,7 @@ Finally, if you find yourself checking ParaSwap obsessively, consider enabling t
 
 ### Example Use Cases
 
-Now that you have an understanding of the main features and benefits offered by ParaSwap, this last section provides inspiration to envision what you can do with all this power:
+Now that you have an understanding of the main features and benefits offered by ParaSwap, this last section provides inspiration to envision what you can do to best harness its potential:
 
 #### 1. Large Swaps
 

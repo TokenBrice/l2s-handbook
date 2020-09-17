@@ -11,11 +11,18 @@ Paraswap's website is at **[paraswap.io](https://paraswap.io/)**.
 
 The **[Developer Documentation](https://paraswapv2.docs.apiary.io/#)** provides an overview of the main features offered by the API and how to implement them.
 
+### Official Channels
+
+- **[🐦 Follow ParaSwap on Twitter](https://twitter.com/paraswap)** for our latest news.
+- Or **[📰 Join the Telegram Announcement Channel](https://t.me/paraswap_ann)** to keep track with Paraswap.
+
 ### Community Channels
 
-- **[🐦 Follow ParaSwap on Twitter](https://twitter.com/paraswap)**
-- **[🎮 Join the Community on Discord](https://discord.gg/wYePFfR)**
-- **[✈ Chat on Telegram](https://t.me/paraswap)**
+Got some questions for the team? 
+- Ask them **[🛩 on Telegram](https://t.me/paraswap)** 
+- Or **[🎮 Join the Community Discord](https://discord.gg/wYePFfR)**
+
+Our Telegram and Discord channels are bridged together for convinience and accessibility.
 
 ---
 
