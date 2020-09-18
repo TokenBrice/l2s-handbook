@@ -1,6 +1,6 @@
 ---
 title: "Fees & Business Model"
-weight: 6
+weight: 7
 description: >
   An overview of ParaSwap's revenue streams
 ---

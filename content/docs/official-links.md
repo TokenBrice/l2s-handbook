@@ -1,6 +1,6 @@
 ---
 title: "Official & Community Links"
-weight: 7
+weight: 8
 description: >
   Here lives the list of all ParaSwap official and community resources.
 ---
@@ -14,15 +14,19 @@ The **[Developer Documentation](https://paraswapv2.docs.apiary.io/#)** provides 
 ### Official Channels
 
 - **[🐦 Follow ParaSwap on Twitter](https://twitter.com/paraswap)** for our latest news.
-- Or **[📰 Join the Telegram Announcement Channel](https://t.me/paraswap_ann)**.
+- **[📢 Join the Telegram Announcement Channel](https://t.me/paraswap_ann)**.
+- **[🗞 ParaSwap Blog](https://medium.com/@paraswap)**
 
 ### Community Channels
 
-Got some questions for the team? 
-- Ask them **[🛩 on Telegram](https://t.me/paraswap)** 
+- Ask your questions **[🛩 on Telegram](https://t.me/paraswap)** 
 - Or **[🎮 Join the Community Discord](https://discord.gg/wYePFfR)**
 
 Our Telegram and Discord channels are bridged together for convinience and accessibility.
+
+### Additonal Resources
+- **[Terms of Service & Privacy Policy](https://paraswap.io/public/ps_tos.pdf)**
+- **[Swapper Contract - paraswap.eth](https://etherscan.io/address/0x86969d29f5fd327e1009ba66072be22db6017cc6)**
 
 ---
 

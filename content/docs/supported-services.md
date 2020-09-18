@@ -1,6 +1,6 @@
 ---
 title: "Supported Services"
-weight: 5
+weight: 6
 description: >
   An overview of all the services supported on ParaSwap and their main features.
 ---

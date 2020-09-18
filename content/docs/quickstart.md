@@ -1,6 +1,6 @@
 ---
 title: "QuickStart: Main Features"
-weight: 4
+weight: 5
 description: >
   A detailed explainer of every feature available on ParaSwap.io and how to use them.
 ---
@@ -33,9 +33,6 @@ _Breakdown of `Swap & Transfer`: Swap tokens and send them to another wallet in 
 
 Using `Swap & Transfer`, you can execute two distinct operations in a single transaction, helping to reduce your effective gas costs.
 
-### Earn
-In the `Earn` sub-tab, you can commit liquidity to Bancor's Network pairs straight for ParaSwap. 
-
 ---
 
 ### Example Use Cases
@@ -53,7 +50,6 @@ MultiPath increased the efficiency of ParaSwap even more while enabling new use 
 #### 3. Pay Friends
 
 If you need to make a payment in a currency you do not own, you can use ParaSwap to avoid any unnecessary extra steps. You can pay them from any of the tokens you own with `Swap & Transfer` & ParaSwap handles sending them for you - make sure to double-check the destination address!
-
 
 ---
 

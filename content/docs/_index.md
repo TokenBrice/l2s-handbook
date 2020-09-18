@@ -1,11 +1,13 @@
 ---
 title: "Learn2Swap - Getting Started"
-weight: 2
+weight: 3
 description: >
   This page details what you need to get started with ParaSwap.
 ---
 
-ParaSwap aggregates several DeFi services and make them available in one comprehensive interface. This handbook provides guidance to better understand ParaSwap's context and how to make the most of it.
+ParaSwap is middleware aggregating many decentralized exchanges (DEX) and other services in one comprehensive interface. For any given trade, ParaSwap checks the rates on all supported DEX and implements further optimizations to get the best rate possible - sometimes even beating the markets! 
+
+This handbook provides guidance to better understand ParaSwap's context and how to make the most of it.
 
 It details the requirement to start using ParaSwap ([➡ Getting Started]({{< relref path="/content/docs/quickstart.md" >}}) section), as well as why it makes sense to interact with DeFi using middleware. Finally, it provides you with a comprehensive overview of all the services ParaSwap's interact with.
 
@@ -29,4 +31,4 @@ Ethereum's DeFi operates in a permissionless manner: there are no checks require
 
 With a wallet secured, you have everything you need to interact with ParaSwap and any other decentralized finance services. 
 
-<div align ="center">{{< button "/docs/ps-edge/" "Why Use ParaSwap?" >}} {{< button "/docs/quickstart/" "QuickStart" >}}</div>
+<div align ="center">{{< button "/docs/ps-edge/" "Why Use ParaSwap?" >}} {{< button "/docs/faq/" "FAQ" >}}</div>

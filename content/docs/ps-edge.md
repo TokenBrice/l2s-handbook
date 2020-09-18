@@ -1,6 +1,6 @@
 ---
 title: "ParaSwap's Edge"
-weight: 3
+weight: 4
 description: >
   Why using ParaSwap can be more effective than interacting directly with DeFi services  
 ---
