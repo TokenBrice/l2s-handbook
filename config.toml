@@ -43,5 +43,5 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   time_format_blog = "Monday, January 02, 2006"
   time_format_default = "January 2, 2006"
   [params.logo]
-    lightMode = "logo/logo_paraswap-handbook-blue.svg"
+    lightMode = "logo/paraswap.svg"
     darkMode = "logo/logo_paraswap-handbook.svg"
