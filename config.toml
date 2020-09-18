@@ -1,5 +1,5 @@
 baseURL = "https://upbeat-franklin-561986.netlify.app"
-title = "Learn 2 Swap - ParaSwap Community Handbook"
+title = "Learn 2 Swap"
 siteDescription = "Community Documentation for ParaSwap - the Decentralised Finance middelware facilitating token swaps."
 enableRobotsTXT = true
 theme = ["hugo-notice","compose"]
@@ -37,8 +37,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
   author = "ParaSwap"
-  searchPlaceholder = "Search the docs ..."
-  repo = "https://github.com/onweru/compose"
+  searchPlaceholder = "Search..."
+  repo = "https://github.com/paraswap/l2s-handbook/"
 
   time_format_blog = "Monday, January 02, 2006"
   time_format_default = "January 2, 2006"

@@ -11,13 +11,13 @@ ParaSwap also implements various services and tools to streamline the experience
 
 ## 💱 Exchanges
 
-All major decentralised exchanges are supported on ParaSwap. When a new exchange is made available - its trading volume is analysed to determine the integration's priority.
+All major decentralized exchanges are supported on ParaSwap. When a new exchange is made available - its trading volume is analysed to determine the integration's priority.
 
 ### Uniswap
 
 <div align="center">{{< figure src="/images/DEX/uniswap.png" >}}</div>
 
-Uniswap is the leading decentralised exchange. Uniswap pioneered the concept of an Automated Market Maker. Thanks to its AMM, Uniswap always find a price for a given trade - at the cost of potentially high slippage if the pool is undersized.
+Uniswap is the leading decentralized exchange. Uniswap pioneered the concept of an Automated Market Maker. Thanks to its AMM, Uniswap always find a price for a given trade - at the cost of potentially high slippage if the pool is undersized.
 
 Uniswap's design is minimal and elegant. Since Uniswap's is also the decentralized exchange with the most volume processed to date, (parts of) Uniswap's model are frequently re-used (forked) to create new AMMs.
 

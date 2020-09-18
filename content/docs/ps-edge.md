@@ -5,20 +5,20 @@ description: >
   Why using ParaSwap can be more effective than interacting directly with DeFi services  
 ---
 
-This page summarizes the main benefits you can draw from using ParaSwap's over interacting with the decentralised finance services directly or using another middleware.
+This page summarizes the main benefits you can draw from using ParaSwap's over interacting with decentralized finance services directly or using another middleware.
 
-### Efficient Decentralized Exchanges Aggregation
+### 🧭 Efficient Decentralized Exchanges Aggregation
 
 {{< notice note >}}
-ParaSwap scours dozens of decentralised exchanges to secure the best rates. Thanks to a refined pathing analysis logic, all options are explored, including splitting your order into several exchanges or looking for alternative swapping routes. 
+ParaSwap scours dozens of decentralized exchanges to secure the best exchange rates. Thanks to a refined pathing analysis, all options are explored, including splitting your order into several exchanges or looking for alternative swapping routes. 
 {{< /notice >}}
 
 {{< block "grid-2" >}}
 {{< column >}}
 #### Find the Best Rate
-ParaSwap connects to most major decentralised exchanges, such as Uniswap, Kyber, Curve or the 0x network. 
+ParaSwap connects to most major decentralized exchanges, such as Uniswap, Kyber, Curve or the 0x network. 
 
-When you input a trading pair on ParaSwap, such as ETH to DAI, for instance, ParaSwap compares the prices of each exchange (accounting for your transaction's volume).
+When you input a trading pair on ParaSwap, for instance ETH to DAI, ParaSwap compares the available rates for the pair on each exchange (accounting for your transaction's volume).
 
 {{< /column >}}
 {{< column >}}
@@ -28,7 +28,7 @@ When you input a trading pair on ParaSwap, such as ETH to DAI, for instance, Par
 {{< /column >}}
 {{< /block >}}
 
-_ParaSwap examines at the rate for the given pair on all supported exchanges and displays the effective rate (accounting for slippage) for each._
+_ParaSwap examines the rate for the given pair on all supported exchanges and displays the effective rate (accounting for slippage) for each._
 
 ---
 
@@ -40,7 +40,7 @@ _ParaSwap examines at the rate for the given pair on all supported exchanges and
 {{< /column >}}
 
 {{< column >}}
-#### Optimise Orders' Execution
+#### Optimize Orders' Execution
 ParaSwap does whatever it takes to find the best rate - including splitting your order across several decentralized exchanges.
 
 Splitting orders is particularly effective for large transactions, such as the one presented here: a swap of 500 ETH to DAI, routed on three supports: 
@@ -57,9 +57,9 @@ Splitting orders is particularly effective for large transactions, such as the o
 {{< column >}}
 
 #### MultiPath (1/2): No Stones Left Unturned
-**ParaSwap routing algorithm explore every relevant route**, including the ones involving extra hops. 
+**ParaSwap routing algorithm explore every relevant paths**, including the ones involving extra hops. 
 
-For instance, to buy ETH from USDT, a direct USDT -> ETH swap might not be the way. Getting the best rate might involve going USDT -> USDC -> ETH for instance.
+For instance, to buy ETH from USDT, a direct USDT -> ETH swap might not be the way. Getting the best rate might involve going USDT -> USDC -> ETH in that case.
 
 No need to compute all this complexity (across all DEXes) by yourself - ParaSwap does it for you!
 
@@ -67,7 +67,7 @@ No need to compute all this complexity (across all DEXes) by yourself - ParaSwap
 {{< column >}}
 
 ![Paraswap-multipath](/images/paraswap-multipath.png)
-_A large USDT -> ETH swap routed through MultiPath to beat the direct-pair price._
+_A large USDT -> ETH swap routed through MultiPath to beat the rate available on any given DEX._
 
 {{< /column >}}
 {{< /block >}}
@@ -78,24 +78,22 @@ _A large USDT -> ETH swap routed through MultiPath to beat the direct-pair price
 {{< column >}}
 
 ![Paraswap-aSNX-multipath](/images/multipath-aSNX.png)
-_A swap from ETH to aSNX facilitated by ParaSwap_
+_A swap from ETH to aSNX facilitated by ParaSwap._
 
 {{< /column >}}
 
 {{< column >}}
 #### MultiPath (2/2) - Interactions Aggregation
-MultiPath will also help you **interacting with several services with one gas-efficient transaction**. For instance, if you'd like to swap ETH to SNX and then deposit the SNX into Aave for aSNX, ParaSwap can do this for you in one step.
+MultiPath can also help you **interacting with several services with one gas-efficient transaction**. For instance, if you'd like to swap ETH to SNX and then deposit the SNX into Aave for aSNX, ParaSwap can do this for you in one step.
 
-ParaSwap will interact with each contract - so in this case your ETH are swapped to SNX and then deposited into Aave (aSNX) in one transaction for a better gas efficiency.
+ParaSwap interacts with each contract - so in this case your ETH are swapped to SNX and then deposited into Aave (aSNX) in one transaction for a better gas efficiency.
 
 {{< /column >}}
 {{< /block >}}
 
-
-
 ---
 
-### Gas Optimisations
+### ⛽ Gas Optimizations
 
 {{< notice note >}}
 ParaSwap implements several solutions to reduce gas usage across the platform, such implementing the GST2 gas token.
@@ -119,22 +117,22 @@ The Gas Token (GST2) enables the tokenisation of gas when prices are low. The GS
 {{< /block >}}
 
 {{< notice tip >}}
-The gas costs estimations displayed on ParaSwap.io are **a worst-case scenario**. Often, the effective price will be lower. While GST2 can be harnessed to optimize your trade, ParaSwap will refund you the gas cost saved.
+The gas costs estimations displayed on ParaSwap.io are **a worst-case scenario**. Often, the effective price are lower. While GST2 can be harnessed to optimize your trade, ParaSwap refunds you the gas cost saved.
 {{< /notice >}}
 
 ---
 
-### ParaSwapPool
+### 📡 ParaSwapPool
 
 {{< notice note >}}
-On top of all major DEXes, ParaSwap has its private Market Maker pool. ParaSwapPool provides further opportunities to optimise the transactions, sometimes enabling our users to **beat the market rate**.
+On top of all major DEXes, ParaSwap has its private Market Maker pool. ParaSwapPool provides further opportunities to optimize the transactions, sometimes enabling our users to **beat the market rate**.
 {{< /notice >}}
 
 ParaSwap pools the liquidity provided by professional liquidity providers in the ParaSwapPool. This pool is included in any relevant trade, just like another decentralized exchange.
 
 ---
 
-### Streamlined Allow Transactions
+### 🛂 Streamlined Allow Transactions
 
 {{< notice note >}}
 **With ParaSwap, one `Allow` rules them all!** Once you've allowed a given token on ParaSwap, you can exchange it on any DEX (through ParaSwap) - no further allow required!
@@ -154,7 +152,7 @@ With ParaSwap, you still need to perform the `Allow` for any new token you inter
 
 ---
 
-### Understanding Risk & Hedging It
+### 🛡️ Understanding Risk & Hedging It
 
 {{< notice note >}}
 ParaSwap follows a strict procedure to reduce operational risk. ParaSwap never holds custody of your assets. For further insurance, you can also contract a cover on Nexus Mutual.
