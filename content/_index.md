@@ -17,7 +17,7 @@ This website provides a clear state of ParaSwap's capabilities and some guidance
 
 <div align= "center">
 
-💬 Got Questions? Ask them questions on ParaSwap **[Discord](https://discord.gg/wYePFfR)** or **[Telegram](https://t.me/paraswap)**.
+💬 Got Questions? Ask them on our **[Discord](https://discord.gg/wYePFfR)** or **[Telegram](https://t.me/paraswap)** channels.
 </div>
 
 {{< /column >}}

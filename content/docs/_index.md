@@ -1,5 +1,5 @@
 ---
-title: "Getting Started"
+title: "Welcome on Learn2Swap"
 weight: 2
 description: >
   This page details what you need to get started with ParaSwap.

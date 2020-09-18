@@ -9,12 +9,12 @@ description: >
 
 Paraswap's website is at **[paraswap.io](https://paraswap.io/)**.
 
-The **[Developer Documentation](https://paraswapv2.docs.apiary.io/#)** provides an overview of the main features offered by the API and how to implement them.
+The **[Developer Documentation](https://paraswapv2.docs.apiary.io/#)** provides an overview of the main functions enabled by the API and how to implement them.
 
 ### Official Channels
 
 - **[🐦 Follow ParaSwap on Twitter](https://twitter.com/paraswap)** for our latest news.
-- Or **[📰 Join the Telegram Announcement Channel](https://t.me/paraswap_ann)** to keep track with Paraswap.
+- Or **[📰 Join the Telegram Announcement Channel](https://t.me/paraswap_ann)**.
 
 ### Community Channels
 
