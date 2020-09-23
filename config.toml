@@ -4,6 +4,7 @@ siteDescription = "Community Documentation for ParaSwap - the Decentralised Fina
 enableRobotsTXT = true
 theme = ["hugo-notice","compose"]
 enableGitInfo = true
+googleAnalytics = "UA-138408084-5"
 
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
@@ -16,7 +17,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [[menu.main]]
     name = "QuickStart"
     weight = 3
-    url = "docs/quickstart/"
+    url = "/docs/quickstart/"
 
 [markup]
   [markup.goldmark]
