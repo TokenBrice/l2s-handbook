@@ -2,7 +2,7 @@
 title: "Frequently Asked Questions"
 weight: 2
 description: >
-  Just discovered ParaSwap? You'll find the answers to your main questions in here.
+  Just discovered ParaSwap? This page answers recurring questions to get ready to swap.
 ---
 
 ### What is ParaSwap about?
@@ -38,7 +38,7 @@ Yet since ParaSwap is a **decentralized service enabled by smart contracts runni
 
 ### Why do I need to sign two transactions to swap ("Allow")?
 
-**To interact with tokens stored in a user wallet, the ParaSwap contract needs the permission - that's the "allow" transaction.** All tokens on the Ethereum blockchain require this transaction, but for ETH, the native asset of the network.
+**To interact with tokens stored in a user wallet, the ParaSwap contract needs the permission - that's the `allow` transaction.** All tokens on the Ethereum blockchain require this transaction, but for ETH, the native asset of the network.
 
 When initiating a token exchange on ParaSwap, you'll be asked to allow the token being spent. You have two options:
 
@@ -51,6 +51,8 @@ When initiating a token exchange on ParaSwap, you'll be asked to allow the token
 
 Transactions on decentralized exchanges are facilitated thanks to third parties providing liquidity: they do so by committing a balanced amount of tokens to a liquidity pool. 
 
-When the available liquidity is too slim compared to the trade at play, slippage can occur: the effective rate for the transaction is below the market because the trade is significantly depleting liquidity pools.
+**When the available liquidity is too slim compared to the trade at play, slippage can occur**: the effective rate for the transaction is below the market because the trade is significantly depleting liquidity pools.
 
-ParaSwap implements many strategies to reduce or avoid slippage, especially for large trades. Indeed, the swapping contract is able to split trades into several exchanges at once to better the rate.
+ParaSwap swapping contract is able to split trades onto several exchanges at once to better the rate. Several other strategies are implemented to reduce splippage and optimise the rate. They are explained in the next section:
+
+<div align ="center">{{< button "/docs/ps-edge/" "ParaSwap Edge" >}}</div>

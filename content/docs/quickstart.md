@@ -22,7 +22,7 @@ To better understand the advantages of using ParaSwap over interacting with a de
 For the users, the swapping path is always the same: you input your two tokens & ParaSwap figures out the rest:
 
 ![paraswap-quickstart-swap](/images/quickstart/swap-tokens.png)
-_Several indicators are here to help you watch for slippage! ParaSwap gives you an estimation of the effective slippage for each route (highlighted in green) - as well as USD equivalent of each side of your trade (highlighted in blue)._
+_Several indicators are here to help you watch for slippage! ParaSwap gives you an estimation of the effective slippage for each route (highlighted in red) - as well as USD equivalent of each side of your trade (highlighted in green)._
 
 ### Swap & Transfer
 If you're swapping tokens to send to somewhere else, consider swap & transfer. It's exactly the same as the previous simple swap, except this time the tokens obtained are sent to another address.

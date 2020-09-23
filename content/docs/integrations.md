@@ -1,15 +1,17 @@
 ---
-title: "Supported Services"
+title: "Integrations"
 weight: 6
 description: >
-  An overview of all the services supported on ParaSwap and their main features.
+  An overview of all the services ParaSwap connects too, the one used for the infrastructure, and third party services harnessing ParaSwap's API.
 ---
 
-As a middleware, ParaSwap connects to many services to facilitate its users' interactions with DeFi. The main driver of the prices provided are obviously the exchanges supported - so this is where we start at with the [`💱 Exchanges`](#-exchanges) section.
+As a middleware, ParaSwap connects to many services to facilitate its users' interactions with DeFi. The main driver of the prices provided are the exchanges supported - displayed in the [`💱 Exchanges`](#-exchanges) section.
 
-ParaSwap also implements various services and tools to streamline the experience, such as a price oracle. You'll find them detailed in the [`🧰 Infrastructure`](#-infrastructure) section.
+Third-party services such as wallet can also integrate with ParaSwap thanks to the API - [`💻 ParaSwap API`](#-paraswap-api)
 
-## 💱 Exchanges
+Finally, ParaSwap also implements several services and tools to streamline the experience, such as a price oracle. You'll find them detailed in the [`🧰 Infrastructure`](#-infrastructure) section.
+
+## 💱 Supported Exchanges
 
 All major decentralized exchanges are supported on ParaSwap. When a new exchange is made available - its trading volume is analysed to determine the integration's priority.
 
@@ -54,7 +56,7 @@ Balancer built on the Uniswap's AMM model and improve it to reduce the risk of i
 
 <div align="center">{{< figure src="/images/DEX/0x.png" >}}</div>
 
-0x is technically not a decentralized exchange per-se, but more like a network of order books (0xMesh). 0x provides an easy infrastructure for decentralized exchanges to mutualize their order book on the Mesh, helping to solve the chicken & egg liquidity dilemma. 
+0x is technically not a decentralized exchange, but more like a network of order books (0xMesh). 0x provides an easy infrastructure for decentralized exchanges to mutualize their order book on the Mesh, helping to solve the chicken & egg liquidity dilemma. 
 
 - **[Official Website](https://0x.org/)**
 - **[Stats & Infos](https://0xtracker.com/)**
@@ -94,6 +96,21 @@ Oasis is a decentralized exchange provided by Maker. While it offers fewer pairs
 
 ---
 
+## 💻 ParaSwap API
+
+DeFi services can integrate ParaSwap thanks to the API. Projects integrating our API can easily collect a commission on the trades they facilitate thanks to the [`Revenue Sharing Contract`]({{< relref path="/content/docs/fees.md#-revenue-sharing-integrators" >}}).
+
+### Monolith
+
+<div align="center">{{< figure src="/images/integrations/monolith.png" >}}</div>
+
+Monolith is a non-custodial Ethereum wallet paired with a Visa debit card. ParaSwap is integrated into the mobile app to facilitate users' token swaps.
+
+- **[Official Website](https://monolith.xyz)**
+- **[Integration Announcement](https://medium.com/monolith/monolith-dex-the-defi-one-stop-shop-2ba1166197da)**
+
+---
+
 ## 🧰 Infrastructure
 
 On top of the decentralized exchanges ParaSwap integrates with, several other tools are required to provide or improve the service. You'll find the main ones below:
@@ -104,4 +121,4 @@ ParaSwap implements ChainLink's price feeds to quickly fetch actionable and accu
 
 ### Nexus Mutual
 
-ParaSwap's main contracts are covered on Nexus Mutual - the insurance service. Any user can contract an insurance to hedge oneself against a risk of failure of ParaSwap's contract.
+ParaSwap's main contracts are covered on Nexus Mutual - the insurance service. Any user can contract insurance to hedge oneself against the risk of failure of ParaSwap's contract.
