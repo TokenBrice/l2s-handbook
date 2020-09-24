@@ -15,7 +15,8 @@
 <title>{{ if and .Title (ne (trim (lower .Site.Title) "") (trim (lower .Title) "")) }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
 
 {{ template "_internal/google_analytics.html" . }}
-{{- partial "opengraph" . }}
+{{ template "_internal/opengraph.html" . }}
+{{ template "_internal/twitter_cards.html" . }}
 
 {{- $options := (dict "targetPath" "css/styles.css" "outputStyle" "compressed" "enableSourceMap" "true") -}}
 {{- $styles := resources.Get "sass/main.sass" | resources.ExecuteAsTemplate "main.sass" . | resources.ToCSS $options | resources.Fingerprint "sha512" }}

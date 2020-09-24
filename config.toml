@@ -40,7 +40,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   author = "ParaSwap"
   searchPlaceholder = "Search..."
   repo = "https://github.com/paraswap/l2s-handbook/"
-
+  description = "User handbook for ParaSwap, the DeFi middleware facilitating the integration of streamlined token swaps in decentralized applications."
+  image = "/logo-paraswap-cover.png"
   time_format_blog = "Monday, January 02, 2006"
   time_format_default = "January 2, 2006"
   [params.logo]
