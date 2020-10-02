@@ -23,8 +23,21 @@ Uniswap is the leading decentralized exchange. Uniswap pioneered the concept of 
 
 Uniswap's design is minimal and elegant. Since Uniswap's is also the decentralized exchange with the most volume processed to date, (parts of) Uniswap's model are frequently re-used (forked) to create new AMMs.
 
+_ParaSwap fetches both Uniswap V2 (current) and V1 prices (previous version, still used)._
+
 - **[Official Website](https://uniswap.exchange/)**
 - **[Stats & Infos](https://uniswap.info/)**
+
+---
+
+### SushiSwap
+
+<div align="center">{{< figure src="/images/DEX/sushiswap.png" >}}</div>
+
+SushiSwap is a Uniswap fork with updated tokonomics attempting to better align liquidity provider incentives with the protocol's best interest. Compared to Uniswap, the commission earned by liquidity providers is slightly lowered (0.30% -> 0.25%) in favor of a value accrual mechanism on the SUSHI token.
+
+- **[Official Website](https://sushiswap.fi/)**
+- **[SushiSwap Protocol Analytics](https://sushiswap.vision/home)**
 
 ---
 
@@ -52,7 +65,7 @@ Balancer built on the Uniswap's AMM model and improve it to reduce the risk of i
 
 ---
 
-### 0x Network
+### 0x Network & 0x API
 
 <div align="center">{{< figure src="/images/DEX/0x.png" >}}</div>
 
