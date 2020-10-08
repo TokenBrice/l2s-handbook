@@ -76,6 +76,19 @@ Balancer built on the Uniswap's AMM model and improve it to reduce the risk of i
 
 ---
 
+### Synthetix
+
+<div align="center">{{< figure src="/images/integrations/synthetix.png" >}}</div>
+
+Synthetix is one of the leading decentralised protocol for derivatives on Ethereum. All synths are supported on ParaSwap as well as Synthetix itself. It enables swapping from any token to sUSD (or sETH/sBTC). You can also swap any synth for another without slippage.
+
+Paraswap is part of the [Synthetix Volume Program](https://blog.synthetix.io/paraswap-joins-the-synthetix-volume-program/)
+
+- **[Official Website](https://synthetix.io/)**
+- **[Stats & Infos](https://stats.synthetix.io/)**
+
+---
+
 ### Kyber Network
 
 <div align="center">{{< figure src="/images/DEX/kyber.png" >}}</div>
@@ -112,6 +125,17 @@ Oasis is a decentralized exchange provided by Maker. While it offers fewer pairs
 ## 💻 ParaSwap API
 
 DeFi services can integrate ParaSwap thanks to the API. Projects integrating our API can easily collect a commission on the trades they facilitate thanks to the [`Revenue Sharing Contract`]({{< relref path="/content/docs/fees.md#-revenue-sharing-integrators" >}}).
+
+### MetaMask
+
+<div align="center">{{< figure src="/images/integrations/metamask.jpg" >}}</div>
+
+MetaMask is the leading Ethereum wallet, trused by over 1 million users worldwide. It's a browser-extension enabling easy access to web3 decentralized applications, such as ParaSwap. MetaMask users can now swap using ParaSwap directly from their wallet!
+
+- **[Official Website](https://metamask.io)**
+- **[Integration Announcement](https://www.coindesk.com/metamask-gets-into-the-decentralized-exchange-aggregation-business-with-tokenswaps)**
+
+---
 
 ### Monolith
 

@@ -96,7 +96,7 @@ ParaSwap interacts with each contract - so in this case your ETH are swapped to 
 ### ⛽ Gas Optimizations
 
 {{< notice note >}}
-ParaSwap implements several solutions to reduce gas usage across the platform, such implementing the GST2 gas token.
+ParaSwap implements several solutions to reduce gas usage across the platform, such implementing the GST2 gas token. Gas costs are taken into account when analysing swapping paths.
 {{< /notice >}}
 
 {{< block "grid-2" >}}
